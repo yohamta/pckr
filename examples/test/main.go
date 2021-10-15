@@ -106,7 +106,7 @@ func (g *Game) MakeGridAtlas() ([]*textureAtlas, time.Duration, float64) {
 	}
 
 	start := time.Now()
-	pckr := pckr.SimplePacker{}
+	pckr := pckr.SimpleAlgo{}
 	pckr.Pack(R, textureWidth, textureHeight)
 	elapsed := time.Since(start)
 
