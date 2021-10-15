@@ -47,7 +47,7 @@ func (p *Packer) Add(id string, img *ebiten.Image, x0, y0, x1, y1 int) {
 	location := image.Rect(x0, y0, x1, y1)
 	size := location.Size()
 	if size.X == 0 || size.Y == 0 {
-		panic("p.Add() Error: Invalid rectangle specified")
+		panic("p.Add() Error: Invalid rectangle is specified")
 	}
 	p.inputs = append(p.inputs,
 		&packerInput{
