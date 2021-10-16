@@ -26,4 +26,8 @@ func (g *Game) setup() {
 }
 ```
 
+## Result
+![image](https://user-images.githubusercontent.com/1475839/137572019-5fd22d59-fb26-412d-b92c-856a894d3f53.png)
+
+
 [source code](https://github.com/miyahoyo/pckr/blob/master/examples/packing/main.go)
