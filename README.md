@@ -9,7 +9,7 @@ Texture Packing library for [Ebiten](https://ebiten.org/). Packs multiple textur
 func (g *Game) setup() {
 
 	// create a new packer
-	packer = pckr.NewPacker(1024, 1024)
+	packer := pckr.NewPacker(1024, 1024)
 
 	// add images to the packer
 	packer.Add("priest", ebiten.NewImageFromImage(bytes2Image(&images.CHARACTER_HERO_PRIEST)), 0, 0, 600, 300)
@@ -25,5 +25,9 @@ func (g *Game) setup() {
 	// ...
 }
 ```
+
+## Result
+![image](https://user-images.githubusercontent.com/1475839/137572019-5fd22d59-fb26-412d-b92c-856a894d3f53.png)
+
 
 [source code](https://github.com/yohamta/pckr/blob/master/examples/packing/main.go)
