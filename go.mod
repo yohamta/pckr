@@ -1,4 +1,4 @@
-module github.com/miyahoyo/pckr
+module github.com/yohamta/pckr
 
 go 1.16
 

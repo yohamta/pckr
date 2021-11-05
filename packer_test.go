@@ -3,7 +3,7 @@ package pckr_test
 import (
 	"testing"
 
-	"github.com/miyahoyo/pckr"
+	"github.com/yohamta/pckr"
 )
 
 func TestSimplePackerAlgo(t *testing.T) {

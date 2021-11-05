@@ -8,8 +8,8 @@ import (
 	"log"
 
 	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/miyahoyo/pckr"
-	"github.com/miyahoyo/pckr/examples/assets/images"
+	"github.com/yohamta/pckr"
+	"github.com/yohamta/pckr/examples/assets/images"
 )
 
 const (

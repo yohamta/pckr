@@ -2,7 +2,7 @@
 
 Texture Packing library for [Ebiten](https://ebiten.org/). Packs multiple textures into a single image on-the-fly.
 
-[GoDoc](https://pkg.go.dev/github.com/miyahoyo/pckr)
+[GoDoc](https://pkg.go.dev/github.com/yohamta/pckr)
 
 ## Simple Example
 ```go
@@ -26,4 +26,4 @@ func (g *Game) setup() {
 }
 ```
 
-[source code](https://github.com/miyahoyo/pckr/blob/master/examples/packing/main.go)
+[source code](https://github.com/yohamta/pckr/blob/master/examples/packing/main.go)

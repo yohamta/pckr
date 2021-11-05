@@ -10,7 +10,7 @@ import (
 	"time"
 
 	colorful "github.com/lucasb-eyer/go-colorful"
-	"github.com/miyahoyo/pckr"
+	"github.com/yohamta/pckr"
 
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
